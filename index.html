@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+</head>
+<body>
+    <header style="position:sticky; top:0;z-index:999">
+        <nav class="navbar navbar-expand-md navbar-light py-2    ">
+            <div class="container-fluid">
+                <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse " id="navbar-toggler">
+                    <a class="navbar-brand" href="#">
+                        <img src="assets/images/icono.png" width="50" alt="Logo de la página web">
+                    </a>
+                    <ul class="navbar-nav d-flex justify-content-center align-items-center">
+                        <li class="nav-item">
+                            <a class="nav-link text-primary fw-bold " href="#home" >Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  text-primary fw-bold " href=" #about-me">Sobre mí</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  text-primary fw-bold " href=" #projects">Proyectos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  text-primary fw-bold " href="assets/Docs/CV-Jhonatan.pdf" target="_blank">CV</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+<!--  Hero -->
+<section id="home"  class="hero">
+    <div class="principal-hero d-flex flex-column justify-content-center  align-items-center">
+        <img class="hero-image " src="/assets/images/Jhonatan.jpg" alt="Foto de Jhonatan">
+        <h1>Hola, soy Jhonatan</h1>
+        <h2>Desarrollador Backend .NET</h2>
+    </div>
+    <div class="inferior-hero">
+        <img class=" img-fluid"  src="assets/images/Dot-Bot.png" alt="Monitor, laptop y logos de HTML, CSS, JavaScript y React.">
+    </div>
+</section>
+
+<!-- About -->
+<section id="about-me" class="about-me black-section ">
+    <div class="contenedor">
+        <h2 class="title-section">Conoce a Jhonatan</h2>
+        <p class="text-section">Soy ingeniero mecánico eléctrico, he estado trabajando en el área eléctrica durante los últimos cinco años, específicamente en obras de electrificación. Gracias a esta experiencia, he desarrollado habilidades sólidas en comunicación y trabajo en equipo. Siempre he tenido pasión por la programación desde mis días universitarios. He participado en numerosas competencias de robótica y me gradué con una tesis sobre redes neuronales.</p>
+    </div>
+</section>
+
+<!--Experiencia-->
+<section class="pt-5 pb-5 " style="margin-top: -110px; z-index:999; ">
+    <div class="row  justify-content-center  text-center    ">
+        <div class="my-card-1 col col-3  bg-white   ">
+            <i class="bi bi-hdd-fill text-primary size-icon"></i>
+            <h3 class="text-primary">Backend</h3>
+            <h4 class="text-primary">Stack</h4>
+            <p style="margin-bottom: 0;">C#, ASP.NET Core, SQL Server, Docker</p>
+            <br>
+            <h4 class="text-primary">Experiencia</h4>
+            <ul>
+                <li>Web app MVC</li>
+                <li>Web API</li>
+                <li>Entity Framework Core</li>
+                <li>SOLID</li>
+                <li>Clean Architecture</li>                
+            </ul>
+        </div>
+        <div class="my-card-2 col col-3 bg-white">
+            <i class="bi bi-code-slash text-primary size-icon"></i>
+            <h3 class="text-primary">Frontend</h3>
+            <h4 class="text-primary">Stack</h4>
+            <p style="margin-bottom: 0;" >HTML, CSS, JavaScript </p>
+            <br>
+            <h4 class="text-primary">Experiencia</h4>
+            <ul>
+                <li>Maquetación</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- Projects -->
+<section id="projects" class="pt-5 pb-5">
+    <div class="text-center ">
+        <h2 class="pt-5">Proyectos personales</h2>
+        <br>
+    </div>
+
+    <div class="container">
+        <div class="row row-cols-1 row-cols-md-2 g-5 px-5 "  > 
+
+                <div class="col card-projects d-flex justify-content-center ">
+                    <div class="card " style="max-width: 350px;">
+                        <img src="assets/images/spares.jpeg" class="card-img-top" alt="imagen proyecto"   />
+                        <div class="card-body">
+                            <h5 class="card-title">Sistema de Inventario de Repuestos</h5>
+                            <p class="card-text ">
+                                Este proyecto abarca varias tecnologías como API, MVC, React.                            </p>
+                            <!-- <li>                                   
+                                <ul><i class="bi bi-check-all check text-primary"></i>Modelado clases </i></ul> 
+                                <ul><i class="bi bi-check-all check text-primary"></i>Clean Architecture</ul>
+                                <ul><i class="bi bi-check-all check text-primary"></i>Patrones: Generic repository, Unit of Work</i></ul> 
+                                <ul><i class="bi bi-check-all check text-primary"></i>Identity, JWT</ul>
+                                <ul><i class="bi bi-check-all check text-primary"></i>Diseño de la interfaz de usuario</ul>
+                            </li> -->
+                            <ul>
+                                <li>Modelado de clases</li>
+                                <li>Clean Architecture</li>
+                                <li>Patrones: Generic repository, Unit of Work</li>
+                                <li>Identity, JWT</li>
+                                <li>Diseño de la interfaz de usuario</li>
+                            </ul>
+                        </div>
+                        <div class="card-footer">
+                            <a class="btn btn-primary" href="https://github.com/jhonatanELC/SpareInventory" target="_blank"
+                               rel="noopener noreferrer">GitHub</a>                        
+                        </div>
+                    </div>
+                </div> 
+
+                <div class="col card-projects d-flex justify-content-center ">
+                    <div class="card " style="max-width: 350px;">
+                        <img src="assets/images/tesis.jpg" class="card-img-top" alt="imagen proyecto" />
+                        <div class="card-body ">
+                             <h5 class="card-title">Predicción de la demanda de energía eléctrica con Redes Neuronales</h5>
+                            <p class="card-text ">
+                                Proyecto de tesis con el cual obtuve el grado de Ing. Mecánico Eléctrico, dicho proyecto consiste en predecir los valores de una serie temporal, el cual representa la demanda de energía eléctrica en la ciudad de Juliaca  
+                            </p>    
+
+                        </div>
+                        <div class="card-footer">
+                            <a class="btn btn-primary" href="https://github.com/jhonatanELC/Prediction/tree/main" target="_blank"
+                               rel="noopener noreferrer">GitHub</a>
+                        </div>
+                    </div>
+                </div> 
+
+ 
+        </div>      
+        <br>
+        <!-- sola una Card -->
+        <h3 style="text-align: center;">Proyectos grupales</h3>
+
+        <div style="margin-top: 20px; ">
+            <div class=" card-projects d-flex justify-content-center " >
+                <div class="card h-100" style="max-width: 350px;">
+                    <img src="assets/images/e-commerce.jpg" class="card-img-top" alt="imagen proyecto" />
+                    <div class="card-body">
+                        <h5 class="card-title">Sportswear</h5>
+                        <p class="card-text">
+                            Aplicación web hecha con React y estilizada con Tailwind. El usuario puede recorrer el catálogo para ver los productos extraidos de una API, filtrarlos e ir agregándolos a su carrito para su posterior compra.
+Hace uso de una API de .NET Core diseñada con Entity Framework.
+                        </p>                        
+                    </div>
+                    <div class="card-footer">
+                        <a class="btn btn-primary" href="https://github.com/No-Country/c17-117-t-csharp" target="_blank"
+                           rel="noopener noreferrer">GitHub</a>
+                    </div>
+                </div>
+            </div> 
+        </div>
+        
+
+        
+    </div>
+    
+    <a href="https://github.com/jhonatanELC" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+            Ver todos mis proyectos
+            <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+    </a>
+</section>
+
+
+
+
+<!-- @*FOOTER*@ -->
+<footer class="black-section d-flex flex-column align-items-center justify-content-center pb-5">
+    <img class="footer-logo" src="assets/images/icono-blanco.svg" alt="Logo del portafolio">
+    <p class="footer-texto text-center">Aprendo y creo todos los días.<br>Creemos un proyecto juntos.</p>
+    <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">     
+        <a href="https://github.com/jhonatanELC" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/jhonatanlarico/" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-linkedin"></i>
+        </a>     
+        <a href="mailto:larico1599@gmail.com" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-envelope"></i>
+        </a>
+    </div>
+    <div class="derechos-de-autor">Creado por Jhonatan Larico C.</div>
+</footer>
+
+    
+</body>
+</html>
